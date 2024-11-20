@@ -1,0 +1,25 @@
+[package]
+name = "video_frame_extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# This dependency is for managing external processes, but we don't need anything special beyond std::process
+# If you were to add more features later, you might use additional crates
+
+[dependencies.ffmpeg-next]
+version = "4.4.0"  # Example of the ffmpeg bindings for Rust, optional but if you use it
+features = ["sys"]
+
+[dependencies] # Optional
+
+[package]
+name = "video_frame_extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ffmpeg-next = "4.4.0" # Include the crate for ffmpeg bindings
+
+[dependencies]
+
